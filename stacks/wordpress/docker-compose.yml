@@ -26,10 +26,6 @@ services:
 
 volumes:
     db:
-     external: true
-     name: db
      driver: local
     html:
-     external: true
-     name: html
      driver: local
